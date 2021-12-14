@@ -1,0 +1,85 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "image": "https://sun9-43.userapi.com/impg/E0almONWKC80ygDT3pAGGBhyMEl-HpSM7nL7aA/iyrq4rVFFcI.jpg?size=1080x1080&quality=96&sign=459543bc53d4b03da83a79164a18781d&type=album",
+      "title": "First blog ",
+      "blog": "❤❤❤"
+    },
+    {
+      "title": "hiking in Kyrgyzstan  edited",
+      "blog": "We often felt like we were the only people in the world while hiking through those remote and majestic landscapes.  ",
+      "image": "https://www.goatsontheroad.com/wp-content/uploads/2017/07/nick-and-begayim.jpg",
+      "id": 7
+    },
+    {
+      "title": "nature",
+      "blog": "aesthetic",
+      "image": "https://sun9-82.userapi.com/impg/7kmGjq8AutpE79mVmsOPsrKHvrhVFCcwanP7BQ/YSbZqZ7z3Z4.jpg?size=1080x1350&quality=96&sign=ffcbbfcc19a0d8759343a1106d057777&type=album",
+      "id": 10
+    },
+    {
+      "title": "jailoo vibe",
+      "blog": "a",
+      "image": "https://destinationkarakol.com/wp-content/uploads/2021/03/full_muciQhQL1.jpg",
+      "id": 11
+    },
+    {
+      "title": "about Kyrgyzstan trekking ",
+      "blog": "The first place which is very popular among mountaineers is Issyk-Kul area, due to its endless trekking opportunities. Usually, areas near Karakol city offer great options for trekking routes like Dzhety-Oguz, Altyn-Arashan gorges, Jyrgalan valley and Ala-Kul lake. This destinations are located in a one hour drive from Karakol. Mountains around this gorges and valleys are amazingly beautiful, with changing landscapes, stunning waterfalls and lakes. During hiking through this areas you can camp with your own tents  and there is an opportunity to be involved in different activities like horseback riding and taking a bath in hot springs. Because Dzety-Oguz and Altyn-Arashan gorges are famous for their mineral-enriched hot springs. Furthermore, in summer time there are still nomads living in mountains with constructed yurts and big cattles. If you’re anywhere near a yurt camp you will see how locals are open and hospitable, probably you will end up with warm bowl of tea and sweets in a real yurt.",
+      "image": "https://silkroadexplore.com/wp-content/uploads/2018/11/Third-Day-Lesh-Big-Views-Keskenkija-Loop-Jyrgalan-Trek.jpg",
+      "id": 12
+    },
+    {
+      "title": "ik",
+      "blog": "bhtn",
+      "image": "https://sun9-27.userapi.com/impg/hpDZR0hn9bgCrDxFJdkj6Uxgn8VVfJX7UTuymA/R1TAbTdFgAg.jpg?size=1080x1349&quality=96&sign=2ed43495827d5c6c6708922f87d723af&type=album",
+      "id": 14
+    },
+    {
+      "title": "Shamshy gorge ",
+      "blog": "One cloudy day in the mountains of Kyrgyzstan, near the Shamshy gorge ...🗻",
+      "image": "https://sun9-71.userapi.com/impg/FM7RPBHX2gcPx8rKXn0xRQMqjj4ixqVJ79SsXQ/PlrIdMzXbCo.jpg?size=1080x1350&quality=96&sign=a412fe428bf6503c7815e8d7b46d3229&type=album",
+      "id": 15
+    }
+  ],
+  "places": [
+    {
+      "id": 1,
+      "title": "The Barskoon Waterfalls",
+      "desc": "The Barskoon Waterfalls in the Barskoon Valley are a nice trip to experience the wonderful valley. It makes a perfect Family Day and can also be some perfect warmup-hike for further adventures. You can follow the path up the mountains to 3400 and more meters or stay at the wild waterfalls, it is up to you!",
+      "image": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/95/57/af.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Ala Kul",
+      "desc": "As Ala Kul sits at 3560m, it can only be reached by trekking up into the mountains. Most people trek from the Karakol Valley up to Ala Kul, before descending into Altyn-Arashan and onto the endpoint of Ak-Suu over the course of 3 or 4 days.",
+      "image": "https://duetkarakol.files.wordpress.com/2017/08/alakul.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Sary Chelek",
+      "desc": "Sary-Chelek Lake is situated at Jalal-Abad Region (at 1,873 m asl), Western Part of Kyrgyzstan at the territory of Sary-Chelek Nature Reserve. Sary-Chelek (“Yellow Bucket” from Kyrgyz) is the main lake and one of the seven lakes in the area of Chatkal Mountain Ranges. Lake width from 350 m to 1500 m, the deepest point is 234 m.",
+      "image": "https://silkroadexplore.com/wp-content/uploads/2020/02/2504252-1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Jeti Oguz Rocks",
+      "desc": "Jeti Oguz is a sandstone formation about 25 km (15 miles) southwest of Karakol. The name means “seven bulls”, which comes from the fact that the rocks look like seven bulls. Jeti-Oguz Rocks are a protected Nature Monument.",
+      "image": "https://media.istockphoto.com/photos/jeti-oguz-famouns-kyrgyz-sandstone-cliffs-seven-bulls-picture-id153515047?k=20&m=153515047&s=612x612&w=0&h=ueQ6Zf3SQWuwSo7fEULB_quFJqTG0bvAr-jEPoQnZnE="
+    },
+    {
+      "id": 5,
+      "title": "Ala-Archa national park",
+      "desc": "The state natural Ala-Archa park — Kyrgyzstan of 2280 hectares, located in 41 km from Bishkek on a northern slope of the Kyrgyz Ala-Too at the height of 1600-4860 m. Begins with the high center of the Kyrgyz Ala-Too and stretches to the North to the Ala-Archinsky gorge",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/d7/d1/ba.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Lake Song-Kol",
+      "desc": "Song-Kol is a large alpine lake, sandwiched in a hollow between the inner spurs of the Tien Shan in the Naryn region (Kyrgyzstan). Sitting at 3016 meters above sea level, the lake is surrounded by virgin pastures, a conservation area, and the ridges of Sonköltoo and Moldotoo, making it the perfect site for ecological tourism.",
+      "image": "https://kyrgyzstan-tourism.com/wp-content/uploads/2018/12/Nature_SongKol2-1-of-1-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F-1024x694.jpg"
+    }
+  ],
+  "comments": []
+}

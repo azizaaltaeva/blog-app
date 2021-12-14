@@ -1,0 +1,155 @@
+@import './../../assets/variables.scss';
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 9%;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+  
+  .logo {
+    margin-right: auto;
+    font-size: 32px;
+    font-weight: bolder;
+    color: $main-color;
+    i {
+      color: $secondary-color;
+    }
+    }
+
+  .navbar {
+    a {
+      margin-left: 2rem;
+      font-size: 1.7rem;
+      color: $main-color;
+      &:focus {
+        color: $secondary-color;
+      }
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+
+    // #nav-close {
+    //   font-size: 5rem;
+    //   cursor: pointer;
+    //   color: $main-color;
+    //   display: none;
+    // }
+  }
+  .icons a, div {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    color: $main-color;
+    &:hover {
+      color: $secondary-color;
+    }
+    &:focus {
+      color: $secondary-color;
+    }
+  }
+  #menu-btn {
+    display: none;
+  }
+  #search-btn {
+    border: 1px solid grey;
+    font-size: 2rem;
+    padding: 0.7rem;
+    input {
+      background: none;
+    }
+  }
+  .search-box {
+    position: absolute;
+    top: 7rem;
+    z-index: 999;
+  }
+}
+
+.header.active {
+  background: #fff;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active {
+  left: 0;
+  -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+}
+
+
+@media (max-width: 1200px) {
+  .header {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .header {
+    .logo {
+      font-size: 26px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    #menu-btn {
+      display: inline-block;
+    }
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: -110%;
+      background: #fff;
+      z-index: 10000;
+      width: 35rem;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column;
+              flex-flow: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      a {
+        margin: 1rem 0;
+        font-size: 3rem;
+      }
+      .logo {
+        font-size: 22px;
+      }
+      #nav-close {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  #search-btn {
+    font-size: 1rem;
+    padding: 0.4rem;
+    input {
+      width: 5rem;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+@import "./../../assets/variables.scss";
+
+.crud {
+  width: 100%;
+  background: #fff;
+  &__form {
+    width: 50rem;
+    padding: 30px;
+    margin: 30px auto;
+    background: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    h2 {
+      font-size: 26px;
+      text-align: center;
+    }
+    label {
+      margin: 14px 0;
+      display: block;
+      font-size: 16px;
+      line-height: 1;
+      color: gray;
+    }
+    input {
+      height: 40px;
+      width: 100%;
+      font-size: 16px;
+      border: 1px solid beige;
+      cursor: pointer;
+    }
+    // input[type="file"] {
+    //   display: none;
+    // }
+    // .hide {
+    //   height: 40px;
+    //   width: 100%;
+    //   border: 1px solid beige;
+    //   cursor: pointer;
+    //   background: #fff;
+    // }
+    .crud__btn {
+      height: 40px;
+      margin-top: 1rem;
+      cursor: pointer;
+      font-weight: bold;
+      border-color: #fff;
+      border: 0.2rem solid $main-color;
+      &:hover {
+        background: $main-color;
+        color: #fff;
+      }
+    }
+  }
+}

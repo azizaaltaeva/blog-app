@@ -1,0 +1,110 @@
+@import "./../../assets/variables.scss";
+
+.email {
+  background: #eee;
+
+  .email-container {
+    width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+
+    p {
+      font-size: 1.3rem;
+    }
+
+    form {
+      margin-top: 2rem;
+      padding: 0.7rem;
+
+      .form__inp {
+        width: 50%;
+        background: none;
+        background: #fff;
+        border: 0.2rem solid $main-color;
+        color: $main-color;
+        padding: 1.5rem;
+        margin-right: 5px;
+      }
+
+      .form__btn {
+        width: 20%;
+        background: $main-color;
+        border: 0.2rem solid $main-color;
+        color: #fff;
+        padding: 1.5rem;
+
+        &:hover {
+          background: none;
+          color: $main-color;
+          border: 0.2rem solid $main-color;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  background: $main-color;
+  background-position: center;
+  padding: 2rem 9%;
+  // position: absolute;
+  // bottom: 0;
+  // width: 100%;
+
+  .box-container {
+    display: flex;
+    justify-content: space-around;
+    // display: grid;
+    // -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit];
+    // grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    // gap: 1.5rem;
+
+    .box {
+      h3 {
+        font-size: 1.7rem;
+        padding: 1.5rem 0;
+        color: #fff;
+      }
+
+      a {
+        display: block;
+        font-size: 1.3rem;
+        color: #fff;
+        padding: 1rem 0;
+
+        i {
+          color: $secondary-color;
+          padding-right: 0.5rem;
+        }
+        &:hover {
+          color: $secondary-color;
+        }
+        &:hover i {
+          padding-right: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .footer {
+    padding: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .footer {
+    padding: 0;
+    .box-container {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}

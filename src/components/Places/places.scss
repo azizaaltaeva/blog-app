@@ -1,0 +1,68 @@
+@import './../../assets/variables.scss';
+
+.packages {
+  // background: #eee;
+  padding: 6rem 9%;
+
+  .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 1.5rem;
+
+    .box {
+      text-align: center;
+      background: #fff;
+      border: 0.2rem solid $main-color;
+      -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+              box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+      border-radius: .5rem;
+      // &:hover {
+      //   background: $main-color;
+      // }
+      .btn {
+        border-color: #fff;
+        border: 0.2rem solid $main-color;
+        &:hover {
+          background: $main-color;
+          color: #fff;
+        }
+      }
+      .image {
+        height: 25rem;
+        overflow: hidden;
+        padding: 2rem;
+        padding-bottom: 0;
+        border-radius: .5rem;
+        img {
+          height: 100%;
+          width: 100%;
+          -o-object-fit: cover;
+              object-fit: cover;
+          border-radius: .5rem;
+        }
+      }
+      .content {
+        padding: 2rem;
+        height: 40rem;
+        position: relative;
+        h3 {
+          font-size: 2rem;
+          color: $main-color;
+        }
+        p {
+          font-size: 1.5rem;
+          color: $main-color;
+          padding: 1rem 0;
+          line-height: 2;
+        }
+        a {
+          position: absolute;
+          bottom: 3rem;
+          left: 13rem;
+        }
+      }
+    }
+  }
+}

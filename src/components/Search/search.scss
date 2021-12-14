@@ -1,0 +1,21 @@
+@import './../../assets/variables.scss';
+
+.search {
+  width: 23rem;
+  min-height: 150px;
+  // background: #fff;
+  z-index: 1000;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 20px 10px 20px 30px;
+
+  p {
+    color: #000;
+    cursor: pointer;
+    font-size: 1.8rem;
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}

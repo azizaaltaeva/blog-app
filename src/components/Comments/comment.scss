@@ -1,0 +1,59 @@
+
+.comment {
+  width: 100%;
+
+  &-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    position: relative;
+    cursor: pointer;
+    input {
+      width: 100%;
+      border: 1px solid #cdcdcd;
+      border-radius: 5px;
+      padding: 0.5rem;
+      margin: 1rem 0;
+    }
+    textarea {
+      width: 100%;
+      border: 1px solid #cdcdcd;
+      border-radius: 5px;
+      padding: 1rem;
+    }
+    i {
+      position: absolute;
+      right: 2rem;
+      top: 7rem;
+      font-size: 2.3rem;
+      color: grey;
+    }
+  }
+}
+
+.comment-section {
+  width: 100%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: .5rem;
+  margin: 1.5rem 0;
+  .name-section {
+    color: grey;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    position: relative;
+    i {
+      color: grey;
+      position: absolute;
+      right: 2rem;
+      top: 2rem;
+    }
+  }
+  .comment {
+    padding: 2rem;
+    text-align: start;
+    font-size: 1.7rem;
+  }
+}
